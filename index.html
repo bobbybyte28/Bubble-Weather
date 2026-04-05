@@ -1,0 +1,74 @@
+<!-- weather -->
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wdth,wght@75..100,700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="window-buttons">
+            <button id="min-btn" class="tb-btn">—</button>
+            <button id="close-btn" class="tb-btn">✕</button>
+        </div>
+
+        <h1>Weather</h1>
+        <div class="temp-controller">
+            <div class="temp-celsius" id="celsiusBtn">
+                <img src="assets/celsius.png">
+            </div>
+            <div class="temp-fahrenheit" id="fahrenheitBtn">
+                <img src="assets/fahrenheit.png">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="bubble bubble1">
+            <img src="assets/bubble1.png" alt="Temp Bubble">
+            <div class="temp-text" id="bubbleTemp1"></div>
+        </div>
+        <div class="bubble bubble2">
+            <img src="assets/bubble2.png" alt="Temp Bubble">
+            <div class="temp-text" id="bubbleTemp2"></div>
+        </div>
+        <div class="bubble bubble3">
+            <img src="assets/bubble3.png" alt="Temp Bubble">
+        </div>
+        <div class="bubble bubble4">
+            <img src="assets/bubble4.png" alt="Temp Bubble">
+        </div>
+        <div class="bubble bubble5">
+            <img src="assets/bubble5.png" alt="Temp Bubble">
+        </div>
+
+        <div class="luffy-container">
+            <img id="luffy" src="assets/Frame4.png" alt="Luffy">
+        </div>
+
+        <div class="weather-box">
+            <div class="star star1">
+                <img src="assets/Star1.3.png" alt="star">
+            </div>
+            <div class="star star2">
+                <img src="assets/Star1.2.png" alt="star">
+            </div>
+            <div class="weather-text">
+                <div id="weatherMsg">Loading...</div>
+            </div>
+        </div>
+
+    </main>
+    
+    <script src="script.js"></script>
+    <script src="renderer.js"></script>
+</body>
+
+</html>
