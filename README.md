@@ -15,10 +15,13 @@ A cute and aesthetic desktop weather app built with Electron.js, featuring anima
 - Electron.js
 - WeatherAPI
 
+## 📸 Preview
+
+<img src="weather_preview.png" height="200"/> <img src="weather_preview2.png" height="200"/>
+
 ## 🚀 Run Locally
 ```bash
 npm install
 npm start
 
-## 📸 Preview
 
